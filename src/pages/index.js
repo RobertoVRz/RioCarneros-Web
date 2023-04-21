@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/home/Hero";
 import Comunidad from "@/components/home/Comunidad";
+import Eventos from "@/components/home/Eventos";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="pt-10">
         <Hero />
         <Comunidad />
+        <Eventos />
       </div>
     </>
   );
