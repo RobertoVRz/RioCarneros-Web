@@ -1,30 +1,24 @@
+import { useState } from "react";
+import Navbar from "@/components/layout/Navbar";
 import Link from "next/link";
 
-function Navbar() {
+function Layout({ children }) {
+  const [theme, setTheme] = useState("light");
+
+  const handleTheme = () => {
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+  };
+
   return (
-    <div className="w-full navbar bg-base-300">
-      <div className="flex-none lg:hidden">
-        <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            className="inline-block w-6 h-6 stroke-current"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </label>
+    <div className="drawer" data-theme={theme}>
+      <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+      <div className="drawer-content flex flex-col">
+        <Navbar handleTheme={handleTheme} />
+        <main data-theme={theme}>{children}</main>
       </div>
-      <div className="flex-1 px-2 mx-2">
-        La nanocuenta del <span className="text-2xl ml-1"> RIO CARNEROS</span>
-      </div>
-      <div className="flex-none hidden lg:block">
-        <ul className="menu menu-horizontal">
+      <div className="drawer-side">
+        <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
+        <ul className="menu p-4 w-80 bg-base-100">
           <li>
             {" "}
             <Link className="font-light" href="/conoceme">
@@ -61,4 +55,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Layout;
