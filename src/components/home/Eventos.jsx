@@ -8,20 +8,20 @@ function Eventos() {
       <div className="divider"></div>
       <div className="collapse collapse-arrow">
         <input type="checkbox" className="peer" />
-        <div className="collapse-title  text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+        <div className="collapse-title text-4xl">
           Reunión mesa interinstitucional seguimiento
         </div>
-        <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+        <div className="collapse-content text-2xl">
           <p>hello</p>
         </div>
       </div>
       <div className="divider"></div>
       <div className="collapse collapse-arrow">
         <input type="checkbox" className="peer" />
-        <div className="collapse-title  text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+        <div className="collapse-title text-4xl">
           Reunión mesa interinstitucional seguimiento
         </div>
-        <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+        <div className="collapse-content text-2xl">
           <p>hello</p>
         </div>
       </div>

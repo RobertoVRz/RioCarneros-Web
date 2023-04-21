@@ -17,7 +17,7 @@ function Comunidad() {
           height={500}
           alt="Rio Carneros"
         />
-        <div className="m-10 p-10 card w-full bg-primary h-full text-primary-content">
+        <div className="card rounded-none m-10 p-10 w-full bg-primary h-full text-primary-content">
           <div className="card-body">
             <h2 className="card-title text-3xl font-light">Sabemos que</h2>
             <p className="text-4xl font-regular">
