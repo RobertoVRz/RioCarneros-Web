@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import Comunidad from "@/components/home/Comunidad";
 import Eventos from "@/components/home/Eventos";
 import Guardianes from "@/components/home/Guardianes";
+import Integrantes from "@/components/home/Integrantes";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Comunidad />
         <Eventos />
         <Guardianes />
+        <Integrantes />
       </div>
     </>
   );

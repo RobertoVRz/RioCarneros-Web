@@ -3,7 +3,7 @@ import Image from "next/image";
 function Comunidad() {
   return (
     <div className="p-10 bg-base-100">
-      <h1 className="text-5xl">
+      <h1 className="text-5xl text-primary">
         Bienvenido a la comunidad de la nanocuenca del río Carneros
       </h1>
       <p className="py-6 text-2xl">
