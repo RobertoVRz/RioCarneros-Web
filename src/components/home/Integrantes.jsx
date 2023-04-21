@@ -25,8 +25,8 @@ function Integrantes() {
         de este hermoso cuerpo de agua.
       </p>
       <div className="px-10 flex flex-wrap justify-around">
-        {logos.map((logo) => (
-          <figure className="w-40 h-40 relative m-5">
+        {logos.map((logo, index) => (
+          <figure className="w-40 h-40 relative m-5" key={index}>
             <Image
               src={logo}
               fill
