@@ -1,9 +1,17 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 function Hero() {
   return (
-    <div>Hero</div>
-  )
+    <div>
+      <h1>¡Hola! Soy el río Carneros</h1>
+      <p>
+        Soy parte de la gran cuenca río la Antigua, una región hidrológica
+        prioritaria, según CONABIO, ubicada en la parte central del estado de
+        Veracruz.
+      </p>
+    </div>
+  );
 }
 
-export default Hero
+export default Hero;
