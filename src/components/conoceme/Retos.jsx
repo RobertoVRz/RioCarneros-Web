@@ -3,7 +3,7 @@ import React from "react";
 export default function Retos() {
   return (
     <div>
-      <div className="bg-purple-700 w-1/2 m-5 text-white">
+      <div className="bg-purple-700 w-full md:w-1/2 md:m-5 text-white">
         <div className="m-10">
           <h1 className="text-3xl mb-5">Retos y problemáticas</h1>
           <p>
@@ -13,7 +13,7 @@ export default function Retos() {
           </p>
         </div>
         <div className="flex flex-wrap m-10">
-          <div className="border w-1/2 p-5">
+          <div className="border w-full md:w-1/2 p-5">
             <h1 className="text-2xl">Ambientales</h1>
             <ul>
               <li>Contaminación del agua por descargas residuales.</li>
@@ -24,7 +24,7 @@ export default function Retos() {
               </li>
             </ul>
           </div>
-          <div className="border w-1/2 p-5">
+          <div className="border w-full md:w-1/2 p-5">
             <h1 className="text-2xl">Sociales</h1>
             <ul>
               <li>Vulnerabilidad ante eventos climáticos.</li>
@@ -36,7 +36,7 @@ export default function Retos() {
               <li>Problemas de salud y mal olor.</li>
             </ul>
           </div>
-          <div className="border w-1/2 p-5 mb-10">
+          <div className="border w-full md:w-1/2 p-5 md:mb-10">
             <h1 className="text-2xl">Espaciales</h1>
             <ul>
               <li>
@@ -56,7 +56,7 @@ export default function Retos() {
               </li>
             </ul>
           </div>
-          <div className="border w-1/2 p-5 mb-10">
+          <div className="border w-full md:w-1/2 p-5 mb-10 md:mb-10">
             <h1 className="text-2xl">Políticos</h1>
             <ul>
               <li>

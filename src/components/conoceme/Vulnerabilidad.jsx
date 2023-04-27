@@ -3,12 +3,12 @@ import React from "react";
 export default function Vulnerabilidad() {
   return (
     <div>
-      <h1 className="text-purple-700 text-3xl">
+      <h1 className="text-purple-700 text-3xl ml-16">
         Zona de vulnerabilidad ante cambio climático
       </h1>
-      <div className="flex flex-wrap m-10">
-        <div className="border w-1/2 p-10">
-          <h1 className="text-2xl">Contaminación severa</h1>
+      <div className="flex flex-wrap m-5">
+        <div className="border w-full md:w-1/2 p-10 text-justify">
+          <h1 className="text-2xl mb-5">Contaminación severa</h1>
           <p>
             De acuerdo a un estudio de la calidad del agua del río Carneros,
             realizado por Olguín Eugenia, et. al en el 2017. Los valores de los
@@ -25,8 +25,8 @@ export default function Vulnerabilidad() {
             agua del río Sordo.
           </p>
         </div>
-        <div className="border w-1/2 p-10">
-          <h1 className="text-2xl">Pérdida de servicios ambientales</h1>
+        <div className="border w-full md:w-1/2 p-10 text-justify">
+          <h1 className="text-2xl mb-5">Pérdida de servicios ambientales</h1>
           <p>
             Ante el crecimiento de la urbe y la pérdida del arbolado y
             vegetación, la capacidad de la cuenca de proveer de los servicios
