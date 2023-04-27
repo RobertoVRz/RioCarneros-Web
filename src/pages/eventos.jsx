@@ -1,5 +1,9 @@
-function Eventos() {
-  return <div>Eventos</div>;
-}
+import Actividades from "@/components/eventos/Actividades";
 
-export default Eventos;
+export default function Eventos() {
+  return (
+    <div>
+      <Actividades />
+    </div>
+  );
+}

@@ -1,7 +1,7 @@
 export default function Retos() {
   return (
     <div>
-      <div className="bg-purple-700 w-full md:w-1/2 md:m-5 text-white">
+      <div className="bg-purple-600 w-full md:w-1/2 md:m-5 text-white">
         <div className="m-10">
           <h1 className="text-3xl mb-5">Retos y problemáticas</h1>
           <p>
@@ -12,63 +12,79 @@ export default function Retos() {
         </div>
         <div className="flex flex-wrap m-10">
           <div className="border w-full md:w-1/2 p-5">
-            <h1 className="text-2xl">Ambientales</h1>
+            <h1 className="text-2xl mb-5">Ambientales</h1>
             <ul>
-              <li>Contaminación del agua por descargas residuales.</li>
-              <li>Deforestación.</li>
-              <li>Pérdida de la biodiversidad y los servicios ecosistémicos</li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
+                Contaminación del agua por descargas residuales.
+              </li>
+              <li className="mb-2 text-justify list-disc">Deforestación.</li>
+              <li className="mb-2 text-justify list-disc">
+                Pérdida de la biodiversidad y los servicios ecosistémicos
+              </li>
+              <li className="mb-2 text-justify list-disc">
                 Sitio de vertedero de basura urbana y restos de construcción.{" "}
               </li>
             </ul>
           </div>
           <div className="border w-full md:w-1/2 p-5">
-            <h1 className="text-2xl">Sociales</h1>
+            <h1 className="text-2xl mb-5">Sociales</h1>
             <ul>
-              <li>Vulnerabilidad ante eventos climáticos.</li>
-              <li>Pérdidas económicas.</li>
-              <li>Falta conciencia ambiental.</li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
+                Vulnerabilidad ante eventos climáticos.
+              </li>
+              <li className="mb-2 text-justify list-disc">
+                Pérdidas económicas.
+              </li>
+              <li className="mb-2 text-justify list-disc">
+                Falta conciencia ambiental.
+              </li>
+              <li className="mb-2 text-justify list-disc">
                 Prácticas no sustentables (invasión, tirar basura, etc.).{" "}
               </li>
-              <li>Problemas de salud y mal olor.</li>
+              <li className="mb-2 text-justify list-disc">
+                Problemas de salud y mal olor.
+              </li>
             </ul>
           </div>
           <div className="border w-full md:w-1/2 p-5 md:mb-10">
-            <h1 className="text-2xl">Espaciales</h1>
+            <h1 className="text-2xl mb-5">Espaciales</h1>
             <ul>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Pérdida de laterales del río dificulta la construcción del
                 drenaje en algunas zonas.
               </li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Falta de protección y conservación de las zonas ribereñas.
               </li>
-              <li>Falta de espacios de recreación.</li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
+                Falta de espacios de recreación.
+              </li>
+              <li className="mb-2 text-justify list-disc">
                 Infraestructura deficiente para la seguridad de la población.{" "}
               </li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Falta infraestructura para el drenaje de las casas y calles
                 alrededor.
               </li>
             </ul>
           </div>
           <div className="border w-full md:w-1/2 p-5 mb-10 md:mb-10">
-            <h1 className="text-2xl">Políticos</h1>
+            <h1 className="text-2xl mb-5">Políticos</h1>
             <ul>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Falta de vinculación entre dependencias gubernamentales (en
                 materia del río Carneros)
               </li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Desarticulación en la gestión entre dependencias y ciudadanía.
               </li>
-              <li>
+              <li className="mb-2 text-justify list-disc">
                 Ambigüedad en las responsabilidades y reglamentación de cada
                 dependencia.
               </li>
-              <li>Falta de relevancia mediática. </li>
+              <li className="mb-2 text-justify list-disc">
+                Falta de relevancia mediática.{" "}
+              </li>
             </ul>
           </div>
         </div>

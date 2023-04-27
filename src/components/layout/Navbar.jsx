@@ -51,13 +51,13 @@ function Navbar({ handleTheme }) {
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light" href="/eventos">
               {"Eventos"}
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light" href="/participa">
               {"Participa"}
             </Link>
           </li>
