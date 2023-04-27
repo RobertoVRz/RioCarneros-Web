@@ -20,7 +20,7 @@ function Actividades() {
         <Image src="" alt="" />
         <div className="">
           <p>mié 22 de nov | A determinar</p>
-          <h1>Recorrido "Fografías del río Carneros"</h1>
+          <h1>Recorrido Fografías del río Carneros</h1>
           <p>
             Un breve taller de composición de fotografía aplicado. Lograrás
             capturar los mejores ángulos de la vegetación que sobrevive ante un
