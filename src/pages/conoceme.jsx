@@ -3,6 +3,7 @@ import Hero from "@/components/conoceme/Hero";
 import SabiasQue from "@/components/conoceme/SabiasQue";
 import Retos from "@/components/conoceme/Retos";
 import Vulnerabilidad from "@/components/conoceme/Vulnerabilidad";
+import FormConoceme from "@/components/conoceme/FormConoceme";
 
 export default function Conoceme() {
   return (
@@ -18,6 +19,7 @@ export default function Conoceme() {
         <SabiasQue />
         <Retos />
         <Vulnerabilidad />
+        <FormConoceme />
       </div>
     </>
   );

@@ -23,7 +23,7 @@ export default function Vulnerabilidad() {
             agua del río Sordo.
           </p>
         </div>
-        <div className="border w-1/2 p-10">
+        <div className="border border-black w-full md:w-1/2 p-10 text-justify">
           <h1 className="text-2xl">Pérdida de servicios ambientales</h1>
           <p>
             Ante el crecimiento de la urbe y la pérdida del arbolado y

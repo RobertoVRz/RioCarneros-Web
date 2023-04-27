@@ -22,7 +22,7 @@ export default function SabiasQue() {
           </p>
         </div>
       </div>
-      <div className="m-5">
+      <div className="m-5 w-full md:w-1/3">
         <h1 className="text-2xl mb-5 text-primary">¿Sabías qué?</h1>
         <p>
           La corriente principal del río carneros nace en le municipio de
