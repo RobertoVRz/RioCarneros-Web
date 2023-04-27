@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Vulnerabilidad() {
   return (
     <div>
@@ -7,7 +5,7 @@ export default function Vulnerabilidad() {
         Zona de vulnerabilidad ante cambio climático
       </h1>
       <div className="flex flex-wrap m-5">
-        <div className="border w-full md:w-1/2 p-10 text-justify">
+        <div className="border border-black w-full md:w-1/2 p-10 text-justify">
           <h1 className="text-2xl mb-5">Contaminación severa</h1>
           <p>
             De acuerdo a un estudio de la calidad del agua del río Carneros,
@@ -25,8 +23,8 @@ export default function Vulnerabilidad() {
             agua del río Sordo.
           </p>
         </div>
-        <div className="border w-full md:w-1/2 p-10 text-justify">
-          <h1 className="text-2xl mb-5">Pérdida de servicios ambientales</h1>
+        <div className="border w-1/2 p-10">
+          <h1 className="text-2xl">Pérdida de servicios ambientales</h1>
           <p>
             Ante el crecimiento de la urbe y la pérdida del arbolado y
             vegetación, la capacidad de la cuenca de proveer de los servicios
