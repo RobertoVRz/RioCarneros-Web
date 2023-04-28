@@ -45,8 +45,20 @@ function Navbar({ handleTheme }) {
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light" href="/plan-maestro">
               {"Plan Maestro"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/diagnostico">
+              {"Diagnostico"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/lineas-de-accion">
+              {"Lineas de acción"}
             </Link>
           </li>
           <li>
