@@ -10,7 +10,7 @@ export default function lineasAccion() {
         de un Plan Ejecutivo que tenga las líneas de acción aterrizadas en
         actividades puntuales con los actores involucrados.{" "}
       </p>
-      <div className="overflow-x-auto m-10">
+      <div className="overflow-x-auto m-10 w-2/3">
         <table className="table">
           {/* head */}
           <thead>
