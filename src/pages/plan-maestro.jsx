@@ -4,7 +4,7 @@ import Cards from "../components/planmaestro/Cards";
 
 export default function planMaestro() {
   return (
-    <div>
+    <div className="pt-28">
       <Plan />
       <LineasAccion />
       <Cards />
