@@ -2,33 +2,18 @@ import Image from "next/image";
 
 function Actividades() {
   return (
-    <div>
-      <h1 className="text-3xl">Eventos</h1>
-      <p>
+    <div className="py-28 px-5 lg:px-10 min-h-screen">
+      <h1 className="text-5xl text-primary mb-5">Eventos</h1>
+      <p className="text-2xl mb-10">
         Encuentra todos los eventos y actividades en las que puedes participar.
       </p>
-      <div className="">
-        <Image src="" alt="" />
-        <div className="">
-          <p>jue 15 de jun | A determinar</p>
-          <h1>Reunión mesa interinstitucional seguimiento</h1>
-          <p>Seguiento de las líneas de acción, actividades y gestión.</p>
-          <button className="btn btn-primary">Ver más</button>
-        </div>
+
+      <div className="divider"></div>
+
+      <div className="collapse-title text-center lg:text-left text-4xl">
+        No hay eventos próximos
       </div>
-      <div className="">
-        <Image src="" alt="" />
-        <div className="">
-          <p>mié 22 de nov | A determinar</p>
-          <h1>Recorrido Fografías del río Carneros</h1>
-          <p>
-            Un breve taller de composición de fotografía aplicado. Lograrás
-            capturar los mejores ángulos de la vegetación que sobrevive ante un
-            ambiente urbano a veces hostil por la contaminación del agua.
-          </p>
-          <button className="btn btn-primary">Ver más</button>
-        </div>
-      </div>
+      <div className="divider"></div>
     </div>
   );
 }

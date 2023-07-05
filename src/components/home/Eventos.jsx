@@ -8,8 +8,9 @@ function Eventos() {
         </button>
       </div>
       <div className="divider"></div>
-
-      <div className="collapse-title text-center lg:text-left text-4xl">No hay eventos próximos</div>
+      <div className="collapse-title text-center lg:text-left text-4xl">
+        No hay eventos próximos
+      </div>
       <div className="divider"></div>
     </section>
   );

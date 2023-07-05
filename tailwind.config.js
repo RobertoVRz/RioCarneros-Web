@@ -31,14 +31,12 @@ module.exports = {
         light: {
           ...require("daisyui/src/theming/themes")["[data-theme=light]"],
           primary: "#7641AB",
-          "primary-focus": "mediumblue",
         },
       },
       {
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
           primary: "#7641AB",
-          "primary-focus": "mediumblue",
         },
       },
     ],
