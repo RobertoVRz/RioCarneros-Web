@@ -3,7 +3,7 @@ import Image from "next/image";
 function Comunidad() {
   return (
     <div className="p-10 bg-base-100">
-      <h1 className="text-5xl text-primary">
+      <h1 className="text-5xl text-morado">
         Bienvenido a la comunidad de la nanocuenca del río Carneros
       </h1>
       <p className="py-6 text-2xl">
@@ -17,7 +17,7 @@ function Comunidad() {
           height={500}
           alt="Rio Carneros"
         />
-        <div className="card rounded-none m-10 p-10 w-full bg-primary h-full text-primary-content">
+        <div className="card rounded-none m-10 p-10 w-full bg-morado h-full text-white">
           <div className="card-body">
             <h2 className="card-title text-3xl font-light">Sabemos que</h2>
             <p className="text-4xl font-regular">

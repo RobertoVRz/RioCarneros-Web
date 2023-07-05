@@ -1,31 +1,75 @@
+import { oswald } from "@/fonts";
+import clsx from "clsx";
 import Link from "next/link";
 
 function Navbar({ handleTheme }) {
   return (
     <div className="navbar bg-base-300 lg-px-5 fixed top-0 z-20">
-      <div className="flex-none lg:hidden">
-        <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
+      <div className="dropdown lg:hidden">
+        <label tabIndex={0} className="btn btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
             fill="none"
             viewBox="0 0 24 24"
-            className="inline-block w-6 h-6 stroke-current"
+            stroke="currentColor"
           >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
+              d="M4 6h16M4 12h16M4 18h7"
+            />
           </svg>
         </label>
+        <ul
+          tabIndex={0}
+          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+        >
+          <li>
+            {" "}
+            <Link className="font-light" href="/conoceme">
+              {"Conóceme"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/conoceme">
+              {"Guardianes de río"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/conoceme">
+              {"Plan Maestro"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/conoceme">
+              {"Eventos"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light" href="/conoceme">
+              {"Participa"}
+            </Link>
+          </li>
+        </ul>
       </div>
+
       <div className="flex-1 px-2 mx-2">
         <Link href={"/"}>
-          La nanocuenta del{" "}
-          <span className="font-bold text-xl lg:text-2xl ml-1">
+          La nanocuenta del
+          <span
+            className={clsx(
+              "font-bold text-xl lg:text-2xl ml-1",
+              oswald.className
+            )}
+          >
             {" "}
-            RIO CARNEROS
+            RÍO CARNEROS
           </span>
         </Link>
       </div>
