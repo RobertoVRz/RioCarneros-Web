@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Navbar({ handleTheme }) {
   return (
-    <div className="navbar bg-base-300 lg-px-5 fixed top-0 z-20">
+    <div className="navbar bg-base-100 lg-px-5 fixed top-0 z-20">
       <div className="dropdown lg:hidden">
         <label tabIndex={0} className="btn btn-ghost btn-circle">
           <svg

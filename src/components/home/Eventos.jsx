@@ -3,7 +3,7 @@ function Eventos() {
     <section className="p-10">
       <div className="flex justify-between">
         <h1 className="text-5xl text-primary">Eventos</h1>
-        <button className="btn">Ver todos</button>
+        <button className="btn btn-primary btn-outline btn-wide font-bold">Ver todos</button>
       </div>
       <div className="divider"></div>
       <div className="collapse collapse-arrow">

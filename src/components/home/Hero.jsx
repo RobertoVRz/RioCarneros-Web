@@ -1,15 +1,34 @@
-import Image from "next/image";
+import { useEffect, useRef } from "react";
 
 function Hero() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  }, []);
   return (
-    <figure className="w-screen h-[50vh] relative">
-      <Image
-        src="https://static.wixstatic.com/media/6a2275_55b74a8097dd45f9bb43b364b34a86b1~mv2.jpg/v1/fill/w_1640,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6a2275_55b74a8097dd45f9bb43b364b34a86b1~mv2.jpg"
-        alt="Hero"
-        className="object-cover"
-        fill
-      />
-    </figure>
+    <div className="w-screen h-[50vh] relative">
+      <video
+        className="absolute inset-0 w-full h-full object-cover object-center"
+        role="presentation"
+        ref={videoRef}
+        crossOrigin="anonymous"
+        playsInline={true}
+        preload="auto"
+        loop={true}
+        tabIndex={-1}
+        autoPlay={true}
+        muted={true}
+        controls={false}
+      >
+        <source
+          src="https://video.wixstatic.com/video/6a2275_2d1d99501b944379bb50e3fe360fb00c/720p/mp4/file.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
   );
 }
 

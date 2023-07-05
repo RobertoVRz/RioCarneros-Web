@@ -18,14 +18,29 @@ module.exports = {
     },
     colors: {
       morado: "#7641AB",
-      orange: "#FF6C00",
-      yellow: "#FFB700",
       white: "#FFFFFF",
-      marino: "#131D69",
-      estrella: "#FFF500",
-      black: "#323232",
+      black: "#000000",
+      "black-text": "#323232",
     },
     extend: {},
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
+          primary: "#7641AB",
+          "primary-focus": "mediumblue",
+        },
+      },
+      {
+        dark: {
+          ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
+          primary: "#7641AB",
+          "primary-focus": "mediumblue",
+        },
+      },
+    ],
+  },
 };
