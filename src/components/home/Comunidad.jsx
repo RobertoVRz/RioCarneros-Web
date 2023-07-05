@@ -10,14 +10,14 @@ function Comunidad() {
         Espacio de diálogo colectivo, gestión y vinculación para el saneamiento
         de este hermoso cuerpo de agua.
       </p>
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <Image
           src="https://static.wixstatic.com/media/6a2275_9d1fb2def0654069ab5a0d05dd2c1a5f~mv2.jpg/v1/fill/w_596,h_532,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6a2275_9d1fb2def0654069ab5a0d05dd2c1a5f~mv2.jpg"
           width={500}
           height={500}
           alt="Rio Carneros"
         />
-        <div className="card rounded-none m-10 p-10 w-full bg-primary h-full text-white">
+        <div className="card rounded-none lg:m-10 lg:p-10 w-full bg-primary h-full text-white">
           <div className="card-body">
             <h2 className="card-title text-2xl font-light">Sabemos que</h2>
             <p className="text-3xl font-regular">

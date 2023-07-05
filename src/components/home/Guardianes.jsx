@@ -11,7 +11,7 @@ function Guardianes() {
           className="object-cover "
         />
       </figure>
-      <div className="p-7 card rounded-none lg:w-[30vw] h-[50vh] bg-primary text-primary-content">
+      <div className="lg:p-7 card rounded-none lg:w-[30vw] h-[50vh] bg-primary text-primary-content">
         <div className="card-body">
           <h2 className="card-title text-2xl font-light">Somos</h2>
           <p className="text-3xl font-light">
@@ -19,7 +19,9 @@ function Guardianes() {
             con el ambiente que habitamos.
           </p>
           <div className="card-actions justify-start mt-5">
-            <button className="btn">Guardianes del río Carneros</button>
+            <button className="btn text-morado">
+              Guardianes del río Carneros
+            </button>
           </div>
         </div>
       </div>
