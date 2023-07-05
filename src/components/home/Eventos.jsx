@@ -1,11 +1,15 @@
+import Link from "next/link";
+
 function Eventos() {
   return (
     <section className="p-10">
       <div className="flex justify-between">
         <h1 className="text-5xl text-primary">Eventos</h1>
+        <Link href="/eventos">
         <button className="btn btn-primary btn-outline lg:btn-wide font-bold">
           Ver todos
         </button>
+        </Link>
       </div>
       <div className="divider"></div>
       <div className="collapse-title text-center lg:text-left text-4xl">

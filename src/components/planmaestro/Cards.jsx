@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Cards() {
   return (
@@ -19,7 +20,9 @@ function Cards() {
             diagnóstico de la nanocuenca.{" "}
           </p>
           <div className="card-actions justify-end">
+            <Link href="/diagnostico">
             <button className="btn btn-primary">Leer más</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -39,7 +42,9 @@ function Cards() {
             Carneros.{" "}
           </p>
           <div className="card-actions justify-end">
+            <Link href="/lineas-de-accion">
             <button className="btn btn-primary">Leer más</button>
+            </Link>
           </div>
         </div>
       </div>

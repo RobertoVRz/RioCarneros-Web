@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Guardianes() {
   return (
@@ -19,9 +20,11 @@ function Guardianes() {
             con el ambiente que habitamos.
           </p>
           <div className="card-actions justify-start mt-5">
+            <Link href="/guardianes-del-rio">
             <button className="btn text-morado">
               Guardianes del río Carneros
             </button>
+            </Link>
           </div>
         </div>
       </div>

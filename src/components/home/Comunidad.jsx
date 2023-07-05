@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Comunidad() {
   return (
@@ -26,9 +27,11 @@ function Comunidad() {
               conjunto.{" "}
             </p>
             <div className="card-actions justify-start mt-5">
+              <Link href="/plan-maestro">
               <button className="btn text-morado">
                 Conoce el plan maestro
               </button>
+              </Link>
             </div>
           </div>
         </div>

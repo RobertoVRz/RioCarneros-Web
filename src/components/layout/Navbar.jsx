@@ -28,31 +28,43 @@ function Navbar({ handleTheme }) {
         >
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light text-lg" href="/conoceme">
               {"Conóceme"}
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
-              {"Guardianes de río"}
+            <Link className="font-light text-lg" href="/guardianes-del-rio">
+              {"Guardianes del río"}
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light text-lg" href="/plan-maestro">
               {"Plan Maestro"}
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light text-lg" href="/diagnostico">
+              {"Diagnostico"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light text-lg" href="/lineas-de-accion">
+              {"Lineas de acción"}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link className="font-light text-lg" href="/eventos">
               {"Eventos"}
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
+            <Link className="font-light text-lg" href="/participa">
               {"Participa"}
             </Link>
           </li>
@@ -74,7 +86,7 @@ function Navbar({ handleTheme }) {
         </Link>
       </div>
       <div className="flex-none hidden lg:block">
-        <ul className="menu menu-horizontal">
+        <ul className="menu menu-horizontal text-lg">
           <li>
             {" "}
             <Link className="font-light" href="/conoceme">
@@ -83,8 +95,8 @@ function Navbar({ handleTheme }) {
           </li>
           <li>
             {" "}
-            <Link className="font-light" href="/conoceme">
-              {"Guardianes de río"}
+            <Link className="font-light" href="/guardianes-del-rio">
+              {"Guardianes del río"}
             </Link>
           </li>
           <li>
