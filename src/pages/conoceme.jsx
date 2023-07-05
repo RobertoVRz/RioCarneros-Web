@@ -14,7 +14,7 @@ export default function Conoceme() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="pt-10">
+      <div className="pt-28 w-screen">
         <Hero />
         <SabiasQue />
         <Retos />
